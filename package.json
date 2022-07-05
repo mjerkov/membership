@@ -1,0 +1,49 @@
+{
+  "name": "zkp-membership",
+  "version": "0.0.1",
+  "description": "Merkle Tree Membership Proof / circom + snarkjs",
+  "main": "hardhat.config.js",
+  "scripts": {
+    "test": "yarn hardhat test",
+    "deploy:mumbai": "yarn hardhat deploy --network polygonMumbai",
+    "setup": "./scripts/setup.sh",
+    "proof": "./scripts/proof.sh"
+  },
+  "keywords": [
+    "membership",
+    "zksnark",
+    "circom"
+  ],
+  "dependencies": {
+    "@nomiclabs/hardhat-ethers": "^2.0.4",
+    "@nomiclabs/hardhat-etherscan": "^3.0.0",
+    "@nomiclabs/hardhat-waffle": "^2.0.2",
+    "@openzeppelin/contracts": "^4.4.2",
+    "@openzeppelin/contracts-upgradeable": "^4.5.1",
+    "chai": "^4.3.6",
+    "chai-as-promised": "^7.1.1",
+    "circom_tester": "^0.0.9",
+    "circomlib": "^2.0.2",
+    "circomlibjs": "^0.1.1",
+    "crypto": "^1.0.1",
+    "dotenv": "^15.0.0",
+    "ethers": "^5.5.4",
+    "ffjavascript": "^0.2.48",
+    "hardhat": "^2.8.3",
+    "hardhat-deploy": "^0.10.4",
+    "hardhat-deploy-ethers": "^0.3.0-beta.13",
+    "mocha": "^9.2.0",
+    "node-fetch": "2",
+    "snarkjs": "^0.4.13"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/mjerkov/membership.git"
+  },
+  "author": "@mjerkov",
+  "license": "MIT",
+  "bugs": {
+    "url": "https://github.com/mjerkov/membership/issues"
+  },
+  "homepage": "https://github.com/mjerkov/membership#readme"
+}
