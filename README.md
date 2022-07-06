@@ -25,7 +25,7 @@ The Merkle tree membership proof relies on the following circom circuit scheme, 
 Here is the circuit code, with the instantiation of the level 3 Merkle tree verifier. There are four inputs of the main component `Mkt2Verifier`, and the only public one is _root_:
 
 - _key_ - the Merkle tree leaf position for the leaf we want to prove membership
-- _value_ - the private key for which we want to prove Merkle tree membership for
+- _value_ - the private key for which we want to prove Merkle tree membership
 - _root_ - the Merkle tree root
 - _siblings_ - an array of siblings of the Merkle tree leaf we're interested in checking
 
